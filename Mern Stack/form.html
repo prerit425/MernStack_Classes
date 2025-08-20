@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Forms</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            background-color:00ffff;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            align-items: center;
+        }
+        h1{
+            color:rgb(231, 123, 123);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Aarohan Registration Form </h1>
+        </div>
+    </header>
+    
+    
+    <table style="padding: 5px; margin:5px; border:10px solid rgb(165, 210, 231); text-align:center; align:center; color:rgb(229, 136, 14);">
+        <tr>
+            <td>
+                <form action="registration" method="dialog">
+                    <label for="name">Name:</label>
+                    <input type="text" name="" id="name">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="" id="email">
+                    <br><br>
+                    <label for="phone">Phone:</label>
+                    <input type="number" name="" id="phone">
+                    <br><br>
+                    <label for="course">Course:</label>
+                    <select name="course" id="course">
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BBA">BBA</option>
+                        <option value="LLB">LLB</option>
+                    </select>
+                    <label for="confirm"></label>
+                    <br>
+                    <button>Submit</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
