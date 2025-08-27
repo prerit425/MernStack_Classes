@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Projects</a>
-            <a href="">Resume</a>
-            <a href="">Contact</a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
+
     </header>
     <main>
         <h1>Hello, I'm Prerit</h1>
@@ -27,7 +31,6 @@
             <li><strong>Flappy Birds:</strong> A clone of the popular Flappy Birds game built using Unity.</li>
             <li><strong>Portfolio Website:</strong> A personal portfolio website showcasing my projects and skills, built with HTML, CSS, and JavaScript.</li>
             <li><strong>Learning Buddy:</strong>This was a simple learning platform for kids built using HTML, CSS, and JavaScript and was integrated with an AI chatbot using gemini API integration</li>
-            <li><strong></strong></li>
         </ol>
         <hr>
         <h2>Resume</h2>
@@ -63,6 +66,20 @@
     <footer>
         <h2>Contact Me</h2>
         <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
+        <div class="form" id="200">
+                <form action="contact" method="post" style="text-align: center; align-items:center">
+                    <label for="name" class="form-label">Your Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Alex Kate">
+                    <br><br>
+                    <label for="email" class="form-label">Your Email:</label>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                    <br><br>
+                    <label for="message" class="form-label">Your Message:</label>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                    <br>
+                    <button type="submit" class="submit" id="250">Send Message</button>
+                </form>
+        </div>
     </footer>
 </body>
 </html>
